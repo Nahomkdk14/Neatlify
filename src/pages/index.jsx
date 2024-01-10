@@ -5,7 +5,7 @@ let old = document.getElementById("new");
 let skel = document.getElementById("skel");
 const { useState, useEffect } = React;
 document.getElementById("connect").style.display = "none";
-const API_URL = "http://www.omdbapi.com?apikey=cbeeed92";
+const API_URL = "http://www.omdbapi.com?apikey=ab5d57e9";
 const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
   return (
     <div
